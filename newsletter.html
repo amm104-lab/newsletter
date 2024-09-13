@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuta-Newsletter</title>
+    <style>
+      .container {
+        background-color: rgb(255, 249, 245);
+        display: flex;
+        flex-direction: column;
+      }
+
+      .header {
+        background-color: #850122;
+        color: #ffff;
+        display: flex;
+        justify-content: center;
+      }
+
+      h1 {
+        margin: 5px;
+      }
+      .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+      }
+      .content {
+        background-color: #ffff;
+        padding: 3%;
+        margin: 1% 5% 3%;
+        border-radius: 5px;
+        outline: 2px solid #f1d6dd46;
+      }
+
+      .footer {
+        background-color: #850122;
+        color: #ffff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;   
+}
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 2%;
+      }
+
+      button {
+        background-color: #fecbcb;
+        border-radius: 8px;
+        color: #410002;
+      }
+
+      .button-style {
+        text-decoration: none;
+        color: #410002;
+      }
+
+      .icon {
+        color: #fecbcb;
+      }
+
+      .link-style {
+        text-decoration: none;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- header
+picture
+box with bgc
+box inside box with content
+footer
+link to open in browser if needed
+link to blog page
+social icons -->
+    <div style="display: flex; justify-content: center; margin-bottom: 5px">
+      Trouble viewing this email? Try viewing it on the &nbsp;<a
+        target="_blank"
+        href="https://tuta.com/"
+        >web.</a
+      >
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <h1>Tuta Launches Post Quantum Cryptography For Email</h1>
+      </div>
+
+      <div class="image">
+        <img
+          src="https://tuta.com/_astro/post-quantum-cryptpgraphy-tuta-padlock.lZri21xu_26FJH8.webp"
+          alt="lock"
+          width="50%"
+          height="auto"
+          style="border-radius: 30px"
+        />
+      </div>
+
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          optio dolor eaque, voluptatibus sint corporis magni repellendus eius
+          assumenda expedita iure quae, at, ullam nihil. Veritatis aspernatur
+          illum corrupti dolorum.
+        </p>
+        <button>
+          <a
+            target="_blank"
+            href="https://tuta.com/blog/post-quantum-cryptography"
+            class="button-style"
+            >Read more</a
+          >
+        </button>
+      </div>
+<footer>
+      <div class="footer">
+        <div class="tuta-website">
+            <a target="_blank" href="https://tuta.com/"  class="link-style">@tuta.com</a>
+        </div>
+        <div class="footer-socials">
+        <ul>
+          <li class="instagram icon"><ion-icon name="logo-instagram"></ion-icon></li>
+          <li class="twitter icon"><ion-icon name="logo-twitter"></ion-icon></li>
+          <li class="linkedin icon"><ion-icon name="logo-linkedin"></ion-icon></li>
+          <li class="tik-tok icon"><ion-icon name="logo-tiktok"></ion-icon></li>
+          <li class="youtube icon"><ion-icon name="logo-youtube"></ion-icon></li>
+          <li class="reddit icon"><ion-icon name="logo-reddit"></ion-icon></li>
+          <li class="mastodon icon"><ion-icon name="logo-mastodon"></ion-icon></li>
+          <li class="bluesky icon">
+            <img class="bluesky icon"
+              src="https://cdn.worldvectorlogo.com/logos/bluesky-1.svg"
+              alt="bluesky"
+              width="20"
+              height="20"
+            />
+          </li>
+        </ul>
+    </div>
+      </div>
+
+    </div>
+</footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
